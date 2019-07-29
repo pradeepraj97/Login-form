@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     background: url(back.jpg)no-repeat center center fixed;
-    -webkit-background-size: cover;
     font-family: sans-serif;
 }
 
@@ -13,6 +12,7 @@ body{
     color: red;
     top: 50%;
     left: 30%;
+    position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 70px 30px;
@@ -23,16 +23,15 @@ body{
 .user{
     width: 100px;
     height: 100px;
-    position: absolute;
-    top: -50px;
+    position: relative;
+    top: 0px;
     left: calc(50% - 50px);
 }
 
 h1{
     margin: 0;
     padding: 0 0 20px;
-    text-align:center;
-    font-size:24px;
+    text-align: center;
     color: black;
 }
 
@@ -67,7 +66,7 @@ input[type="submit"]
     background: #2196f3;
     color: #fff;
     font-size: 18px;
-    border-radius: 25px;
+    border-radius: 20px;
 
 }
 
@@ -81,7 +80,7 @@ input[type="submit"]:hover
 a
 {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
     color: #069818;
 }
